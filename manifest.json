@@ -1,10 +1,16 @@
 {
-    "name": "first chrome extension",
+    "name": "Quick_Launcher",
     "version": "0.0.1",
-    "description": "for demo",
+    "description": "All social media profiles at one click",
     "manifest_version": 2,
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": "extension-icon.png"
-    }
+    },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
 }
