@@ -4,11 +4,10 @@
     <title>Quick Launcher</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
 
     <style>
-        .header p{
+        .header span{
           font-size:12px;
           margin:0px;
           padding:5px 0px 0 0;
@@ -67,7 +66,7 @@
         font-size: 40px;
         color: #3c797b;
       }
-      .flex a div{
+      .flex .social{
         visibility: hidden;
       }
       .flex:hover{
@@ -108,10 +107,10 @@
 
 		<div class="header">
 			<center>
-			<img src="extension-icon.png" alt="Launcher" class="logo-icon">
-      <p>User Name</p>
+			<img src="extension-icon.png" alt="Launcher" class="logo-icon" ><br>
+      <span id="name"></span>
 			<h1 class="logo">
-				Social Media Profile launcher
+				Social Media Profiles
 			</h1>
 			</center>
 		</div>
@@ -120,36 +119,36 @@
 	<div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <a id="website_link" href="#!" target="_blank">
+          <div id="website_link">
             <center>
             <i class="fa fa-globe" style="color:black "></i>
-            <div>Website</div>
+            <div class='social'>Website</div>
             </center>
-          </a>
+          </div>
         </div>
          <div class="flex">
-          <a id="linkedin_link" href="#!" target="_blank">
+          <div id="linkedin_link">
             <center>
             <i class="fa fa-linkedin" style="color:black"></i>
-            <div>LinkedIn</div>
+            <div class='social'>LinkedIn</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="medium_link" href="#!" target="_blank">
+          <div id="medium_link">
             <center>
             <i class="fa fa-medium" style="color:black "></i>
-            <div>Medium</div>
+            <div class='social'>Medium</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="twitter_link" href="#!" target="_blank">
+          <div id="twitter_link">
             <center>
             <i class="fa fa-twitter" style="color:black "></i>
-            <div>Twitter</div>
+            <div class='social'>Twitter</div>
             </center>
-          </a>
+          </div>
         </div>
       </div>
     </div>
@@ -157,36 +156,36 @@
 	<div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <a id="github_link" href="https://github.com/" target="_blank">
+          <div id="github_link">
             <center>
             <i class="fa fa-github" style="color:black"></i>
-            <div>GitHub</div>
+            <div class='social'>GitHub</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="whatsapp_link" href="https://web.whatsapp.com/" target="_blank">
+          <div id="whatsapp_link">
             <center>
             <i class="fa fa-whatsapp" style="color:black"></i>
-            <div>Whatsapp</div>
+            <div class='social'>Whatsapp</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="facebook_link" href="#!" target="_blank">
+          <div id="facebook_link">
             <center>
             <i class="fa fa-facebook-square" style="color:black"></i>
-            <div>Facebook</div>
+            <div class='social'>Facebook</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="youtube_link" href="https://www.youtube.com/" target="_blank">
+          <div id="youtube_link">
             <center>
             <i class="fa fa-youtube" style="color:black"></i>
-            <div>You Tube</div>
+            <div class='social'>You Tube</div>
             </center>
-          </a>
+          </div>
         </div>
       </div>
     </div>
@@ -204,36 +203,36 @@
 	<div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <a id="meet_link" href="https://apps.google.com/meet/" target="_blank">
+          <div id="meet_link">
             <center>
             <img src="https://imgur.com/y8Ii3WW.jpg" class="fa" height="50px" width="50px">
-            <div>Google Meet</div>
+            <div class='social'>Google Meet</div>
             </center>
-          </a>
+          </div>
         </div>
          <div class="flex">
-          <a id="teams_link" href="https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software" target="_blank">
+          <div id="teams_link">
             <center>
             <img src="https://imgur.com/e1y2nxD.jpg" class="fa" height="50px" width="50px">
-            <div>Teams</div>
+            <div class='social'>Teams</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="zoom_link" href="https://zoom.us/meetings" target="_blank">
+          <div id="zoom_link">
             <center>
             <img src="https://imgur.com/qIGpLyD.jpg" class="fa" height="50px" width="50px">
-            <div>Zoom</div>
+            <div class='social'>Zoom</div>
             </center>
-          </a>
+          </div>
         </div>
         <div class="flex">
-          <a id="webex_link" href="https://cart.webex.com/sign-up" target="_blank">
+          <div id="webex_link">
             <center>
             <img src="https://imgur.com/xLVks5N.jpg" class="fa" height="50px" width="50px">
-            <div>Cisco Webex</div>
+            <div class='social'>Cisco Webex</div>
             </center>
-          </a>
+          </div>
         </div>
       </div>
     </div>
@@ -243,6 +242,8 @@
       <a href="https://github.com/Aayushi-Mittal/Quick-Launcher" target="_blank"><button class="btn"><i class="fa fa-star"></i> Star </button></a>
     </center>
 
-	</body>
+    <script src="popup.js"></script>
+
+  </body>
 
 </html>
