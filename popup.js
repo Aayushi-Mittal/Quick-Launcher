@@ -10,8 +10,8 @@ let links = {
     "youtube_link": 'https://www.youtube.com/',
     "meet_link": 'https://meet.google.com/',
     "teams_link": 'https://teams.microsoft.com/',
-    "zoom_link": 'https://zoom.us/meetings',
-    "webex_link": 'https://cart.webex.com/sign-up'
+    "zoom_link": 'https://zoom.us/join',
+    "webex_link": 'https://signin.webex.com/'
 }
 
 /*
